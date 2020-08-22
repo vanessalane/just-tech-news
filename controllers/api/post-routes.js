@@ -105,7 +105,6 @@ router.put('/upvote', (req, res) => {
     }
 });
 
-
 // update a post's title
 router.put('/:id', (req, res) => {
     Post.update(
