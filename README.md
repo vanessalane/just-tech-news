@@ -28,6 +28,9 @@ deployed api: https://glacial-retreat-13736.herokuapp.com/api
 * PUT `/users/:id`: update a user. Body should include any user info you want to update
 * DELETE `/posts/:id`: delete a post by ID
 
+## Testing
+Test helper functions with `npm test` after cloning the repo and installing dependencies (`npm -i`)
+
 ## Packages
 - bcrypt
 - sequelize
